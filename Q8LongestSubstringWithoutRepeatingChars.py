@@ -1,5 +1,3 @@
-# Q7 answer = a) 123 followed by 123
-# Twitter:-- @DSA_Python
 # Find the longest substring without repeating characters
 def longest_substring(s):
     max_length = 0
@@ -19,8 +17,3 @@ def longest_substring(s):
 test_string = "abcabcbb"
 result = longest_substring(test_string)
 print(result)
-# What is the output of the following code?
-# a) 3
-# b) 4
-# c) 5
-# d) 6

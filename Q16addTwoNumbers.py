@@ -1,6 +1,3 @@
-# Q15 answer = b) 1 -> 2 -> 4 -> 5 -> None
-# Twitter:-- @DSA_Python 
-
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -60,9 +57,3 @@ result_head = add_two_numbers(num1_node1, num2_node1)
 
 print("Sum of the two numbers:")
 print_linked_list(result_head)
-
-# What is the output of the following code?
-# a) 7 -> 0 -> 8 -> None
-# b) 8 -> 0 -> 7 -> None
-# c) 8 -> 0 -> 8 -> None
-# d) 7 -> 0 -> 7 -> None

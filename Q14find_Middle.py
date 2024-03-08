@@ -1,5 +1,3 @@
-# Q13 answer = a) 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> None
-# Twitter:-- @DSA_Python
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -37,9 +35,3 @@ print_linked_list(node1)
 
 middle_node = find_middle(node1)
 print("Middle of the linked list:", middle_node.val)
-
-# What is the output of the following code?
-# a) 3
-# b) 2
-# c) 4
-# d) 1

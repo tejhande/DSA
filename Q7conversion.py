@@ -1,5 +1,3 @@
-# Q6 answer = a)6
-# Twitter:-- @DSA_Python
 # atoi: Convert a string to an integer
 def atoi(s):
     num = 0
@@ -36,9 +34,3 @@ result_1 = atoi(num_str)
 result_2 = itoa(str_num)
 print(result_1)
 print(result_2)
-
-# What is the output of the following code?
-# a) 123 followed by 123
-# b) 123 followed by "123"
-# c) 123 followed by "321"
-# d) 123 followed by -123

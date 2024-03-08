@@ -1,5 +1,3 @@
-# Q14 answer = a) 3
-# Twitter:-- @DSA_Python
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -48,9 +46,3 @@ n = 2
 updated_head = remove_nth_from_end(node1, n)
 print(f"Linked list after removing {n}th node from the end:")
 print_linked_list(updated_head)
-
-# What is the output of the following code?
-# a) 1 -> 2 -> 3 -> 5 -> None
-# b) 1 -> 2 -> 4 -> 5 -> None
-# c) 1 -> 3 -> 4 -> 5 -> None
-# d) 2 -> 3 -> 4 -> 5 -> None

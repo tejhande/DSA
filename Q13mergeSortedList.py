@@ -1,5 +1,3 @@
-# Q12 answer = c) True
-# Twitter:-- @DSA_Python
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -54,9 +52,3 @@ merged_head = merge_sorted_lists(l1_node1, l2_node1)
 
 print("Merged List:")
 print_linked_list(merged_head)
-
-# What is the output of the following code?
-# a) 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> None
-# b) 1 -> 2 -> 3 -> 4 -> 5 -> None
-# c) 1 -> 3 -> 5 -> 2 -> 4 -> 6 -> None
-# d) 2 -> 1 -> 3 -> 4 -> 5 -> 6 -> None

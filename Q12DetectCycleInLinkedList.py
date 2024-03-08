@@ -1,5 +1,3 @@
-# Q11 answer = a) 1 -> 2 -> 3 -> None followed by 3 -> 2 -> 1 -> None
-# Twitter:-- @DSA_Python
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -25,9 +23,3 @@ node3.next = node1  # Creating a cycle
 
 result = has_cycle(node1)
 print(result)
-
-# What is the output of the following code?
-# a) None
-# b) False
-# c) True
-# d) 1

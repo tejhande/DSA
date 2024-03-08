@@ -1,5 +1,3 @@
-# Q10 answer = a) "world hello"
-# Twitter:-- @DSA_Python
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -38,9 +36,3 @@ reversed_head = reverse_linked_list(node1)
 
 print("Reversed linked list:")
 print_linked_list(reversed_head)
-
-# What is the output of the following code?
-# a) 1 -> 2 -> 3 -> None followed by 3 -> 2 -> 1 -> None
-# b) 3 -> 2 -> 1 -> None followed by 1 -> 2 -> 3 -> None
-# c) 1 -> 2 -> 3 -> None followed by None
-# d) None followed by 3 -> 2 -> 1 -> None
